@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.7@sha256:cb158b66aaaf68b642eea2246a9a4dcc6bc39bc634dccd43812ae44807c70765
 
 # Set up code directory
 RUN mkdir -p /usr/src/app
